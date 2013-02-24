@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Custom Ribbon Action: Generic Embed" Description="Adds a button to insert dynamic content into the RTE in the &quot;Insert&quot; tab of the RTE editing ribbon." Id="7dde04eb-85e3-46ca-a22a-1c506eb3f32d" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="GenericEmbed\Elements.xml" />
+  </ElementManifests>
+</Feature>

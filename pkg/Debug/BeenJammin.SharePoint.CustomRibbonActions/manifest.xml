@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="6bce85cf-4907-414e-a1bd-ab052aaef876" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="BeenJammin.SharePoint.CustomRibbonActions.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Images\BeenJammin.SharePoint.CustomRibbonActions\audio-ribbonicon.png" />
+    <TemplateFile Location="Images\BeenJammin.SharePoint.CustomRibbonActions\audioicon16.png" />
+    <TemplateFile Location="Images\BeenJammin.SharePoint.CustomRibbonActions\embed-32.png" />
+    <TemplateFile Location="Images\BeenJammin.SharePoint.CustomRibbonActions\TEXTEDIT.GIF" />
+    <TemplateFile Location="Images\BeenJammin.SharePoint.CustomRibbonActions\youtube-ribbonicon.gif" />
+    <TemplateFile Location="Images\BeenJammin.SharePoint.CustomRibbonActions\youtubeicon16.gif" />
+    <TemplateFile Location="Images\BeenJammin.SharePoint.CustomRibbonActions\ltgbime.gif" />
+    <TemplateFile Location="Images\BeenJammin.SharePoint.CustomRibbonActions\menureply.gif" />
+    <TemplateFile Location="Images\BeenJammin.SharePoint.CustomRibbonActions\RTE2ANCHOR.gif" />
+    <TemplateFile Location="Images\BeenJammin.SharePoint.CustomRibbonActions\menuoutl.gif" />
+    <TemplateFile Location="Layouts\BeenJammin.SharePoint.CustomRibbonActions\customRibbonActionsStyle.css" />
+    <TemplateFile Location="Layouts\BeenJammin.SharePoint.CustomRibbonActions\editModeStyle.css" />
+    <TemplateFile Location="Layouts\BeenJammin.SharePoint.CustomRibbonActions\GenericEmbed.aspx" />
+    <TemplateFile Location="Layouts\BeenJammin.SharePoint.CustomRibbonActions\EmbededAudio.aspx" />
+    <TemplateFile Location="Layouts\BeenJammin.SharePoint.CustomRibbonActions\player.swf" />
+    <TemplateFile Location="Layouts\BeenJammin.SharePoint.CustomRibbonActions\PPT.aspx" />
+    <TemplateFile Location="Layouts\BeenJammin.SharePoint.CustomRibbonActions\SpecialCharacters.aspx" />
+    <TemplateFile Location="Layouts\BeenJammin.SharePoint.CustomRibbonActions\YoutubeEmbedVideo.aspx" />
+    <TemplateFile Location="Layouts\BeenJammin.SharePoint.CustomRibbonActions\AnchorDialog.aspx" />
+    <TemplateFile Location="Layouts\BeenJammin.SharePoint.CustomRibbonActions\AnchorLinkDialog.aspx" />
+    <TemplateFile Location="Layouts\BeenJammin.SharePoint.CustomRibbonActions\EmailLinkDialog.aspx" />
+    <TemplateFile Location="Layouts\BeenJammin.SharePoint.CustomRibbonActions\RibbonActions.js" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="BeenJammin.SharePoint.CustomRibbonActions_Anchor Links\Feature.xml" />
+    <FeatureManifest Location="BeenJammin.SharePoint.CustomRibbonActions_Email Links\Feature.xml" />
+    <FeatureManifest Location="BeenJammin.SharePoint.CustomRibbonActions_Youtube Embed\Feature.xml" />
+    <FeatureManifest Location="BeenJammin.SharePoint.CustomRibbonActions_Include Additional Group\Feature.xml" />
+    <FeatureManifest Location="BeenJammin.SharePoint.CustomRibbonActions_Insert Line\Feature.xml" />
+    <FeatureManifest Location="BeenJammin.SharePoint.CustomRibbonActions_Special Character\Feature.xml" />
+    <FeatureManifest Location="BeenJammin.SharePoint.CustomRibbonActions_PPT\Feature.xml" />
+    <FeatureManifest Location="BeenJammin.SharePoint.CustomRibbonActions_Audio Embed\Feature.xml" />
+    <FeatureManifest Location="BeenJammin.SharePoint.CustomRibbonActions_GenericEmbed\Feature.xml" />
+  </FeatureManifests>
+</Solution>

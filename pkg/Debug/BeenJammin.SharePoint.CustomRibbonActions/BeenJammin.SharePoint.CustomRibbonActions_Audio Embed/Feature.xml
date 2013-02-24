@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Custom Ribbon Action: Audio Embed" Description="This adds a button to embed audio to the &quot;Insert&quot; tab in the RTE editing  ribbon." Id="962970c2-a221-4da3-8a47-2d1e4454db8e" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="AudioEmbed\Elements.xml" />
+  </ElementManifests>
+</Feature>

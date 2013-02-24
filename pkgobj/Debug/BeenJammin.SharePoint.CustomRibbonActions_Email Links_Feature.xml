@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Custom Ribbon Action: Email Links" Description="This feature enables email links in the &quot;Insert&quot; section of the Ribbon in a Rich Text Editor area." Id="065c1457-0803-450a-b720-23af2cd8c683" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="EmailLinks\Elements.xml" />
+  </ElementManifests>
+</Feature>

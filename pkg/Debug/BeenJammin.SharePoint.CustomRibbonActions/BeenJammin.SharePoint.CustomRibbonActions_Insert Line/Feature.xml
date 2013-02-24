@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Custom Ribbon Action: Insert Horizontal Line" Description="Adds a button to insert a horizontal line in the &quot;Insert&quot; tab of the RTE editing ribbon." Id="ef80d48a-9426-4735-bb77-5e813f14f05f" Scope="Site">
+  <ActivationDependencies>
+    <ActivationDependency FeatureDescription="Adds the &quot;Additional&quot; control group to the &quot;Insert&quot; tab in the RTE editing ribbon." FeatureId="4ada5c0b-4ec1-4ed4-ba6c-6a854f99bd87" FeatureTitle="Custom Ribbon Action: Include Additional Group" />
+  </ActivationDependencies>
+  <ElementManifests>
+    <ElementManifest Location="InsertLine\Elements.xml" />
+  </ElementManifests>
+</Feature>

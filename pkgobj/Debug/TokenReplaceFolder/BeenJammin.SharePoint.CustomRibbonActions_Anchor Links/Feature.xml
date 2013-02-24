@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Custom Ribbon Action: Anchor Links" Description="This feature enables anchor links in the &quot;Insert&quot; section of the Ribbon in a Rich Text Editor area." Id="ec980d32-76f7-4a1a-9e13-9d60b643c4e0" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="AnchorLinks\Elements.xml" />
+  </ElementManifests>
+</Feature>

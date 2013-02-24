@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Custom Ribbon Action: Insert Special Characters" Description="Adds a button to insert special characters in the &quot;Insert&quot; tab of the RTE editing ribbon." Id="eae1d6ec-30f1-4874-9027-c337f7f5dc0c" Scope="Site">
+  <ActivationDependencies>
+    <ActivationDependency FeatureDescription="Adds the &quot;Additional&quot; control group to the &quot;Insert&quot; tab in the RTE editing ribbon." FeatureId="4ada5c0b-4ec1-4ed4-ba6c-6a854f99bd87" FeatureTitle="Custom Ribbon Action: Include Additional Group" />
+  </ActivationDependencies>
+  <ElementManifests>
+    <ElementManifest Location="SpecialCharacter\Elements.xml" />
+  </ElementManifests>
+</Feature>

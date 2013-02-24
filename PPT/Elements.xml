@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction   Id="BeenJammin.SharePoint.CustomRibbonActions.Anchor"   Location="CommandUI.Ribbon">
+        <CommandUIExtension>
+            <CommandUIDefinitions>
+                <CommandUIDefinition Location="Ribbon.EditingTools.CPEditTab.Clipboard.Controls._children">
+                    <Button Id="BeenJammin.SharePoint.CustomRibbonActions.ClipboardGroup.PPT" Command="BeenJammin.ClipboardGroup.Command.PPT" Sequence="51" Image16by16="/_layouts/images/BeenJammin.SharePoint.CustomRibbonActions/textedit.gif" Image32by32="/_layouts/images/BeenJammin.SharePoint.CustomRibbonActions/textedit.gif" Description="Paste Plain Text from Word or other formatted text source." LabelText="Paste Plain Text" TemplateAlias="o1" />
+                </CommandUIDefinition>
+            </CommandUIDefinitions>
+            <CommandUIHandlers>
+                <CommandUIHandler Command="BeenJammin.ClipboardGroup.Command.PPT" CommandAction="javascript:PPT();" />
+            </CommandUIHandlers>
+        </CommandUIExtension>
+    </CustomAction>
+    <CustomAction Id="BeenJammin.SharePoint.RTEActions.Scripts" Location="ScriptLink" ScriptSrc="BeenJammin.SharePoint.CustomRibbonActions/RibbonActions.js"/>
+</Elements>

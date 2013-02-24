@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Custom Ribbon Action: Youtube Embed" Description="This feature enables the Youtube embed button  in the &quot;Insert&quot; section of the Ribbon in a Rich Text Editor area." Id="9c9ac625-9e01-40e9-b6ec-95a220395acd" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="YoutubeEmbed\Elements.xml" />
+  </ElementManifests>
+</Feature>

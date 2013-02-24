@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction    Id="BeenJammin.SharePoint.CustomRibbonActions.AdditionalGroup"    Location="CommandUI.Ribbon">
+        <CommandUIExtension>
+            <CommandUIDefinitions>
+                <CommandUIDefinition Location="Ribbon.EditingTools.CPInsert.Scaling._children">
+                    <MaxSize Id="BeenJammin.SharePoint.CustomRibbonActions.Additional.MaxSize" Sequence="15" GroupId="BeenJammin.SharePoint.CustomRibbonActions.AdditionalGroup" Size="Large" />
+                </CommandUIDefinition>
+                <CommandUIDefinition Location="Ribbon.EditingTools.CPInsert.Groups._children">
+                    <Group Id="BeenJammin.SharePoint.CustomRibbonActions.AdditionalGroup" Sequence="15" Description="Additional RTE Insert functions" Title="Additional" Template="Ribbon.Templates.Flexible">
+                        <Controls Id="BeenJammin.SharePoint.CustomRibbonActions.AdditionalGroup.Controls">
+                            
+                        </Controls>
+                    </Group>
+                </CommandUIDefinition>
+            </CommandUIDefinitions>
+            
+        </CommandUIExtension>
+    </CustomAction>
+    <CustomAction Id="BeenJammin.SharePoint.RTEActions.Scripts" Location="ScriptLink" ScriptSrc="BeenJammin.SharePoint.CustomRibbonActions/RibbonActions.js"/>
+</Elements>

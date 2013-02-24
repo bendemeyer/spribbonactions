@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction   Id="BeenJammin.SharePoint.CustomRibbonActions.GenericEmbed"   Location="CommandUI.Ribbon">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.EditingTools.CPInsert.Media.Controls._children">
+          <Button Id="BeenJammin.SharePoint.CustomRibbonActions.MediaGroup.Embed" Command="BeenJammin.MediaGroup.Command.Embed" Sequence="50" Image16by16="/_layouts/images/BeenJammin.SharePoint.CustomRibbonActions/embed-32.png" Image32by32="/_layouts/images/BeenJammin.SharePoint.CustomRibbonActions/embed-32.png" Description="Embed dynamic content" LabelText="Embed" TemplateAlias="o1" />
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler Command="BeenJammin.MediaGroup.Command.Embed" CommandAction="javascript:InsertEmbedContent();" />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+  <CustomAction Id="BeenJammin.SharePoint.RTEActions.Scripts" Location="ScriptLink" ScriptSrc="BeenJammin.SharePoint.CustomRibbonActions/RibbonActions.js"/>
+</Elements>

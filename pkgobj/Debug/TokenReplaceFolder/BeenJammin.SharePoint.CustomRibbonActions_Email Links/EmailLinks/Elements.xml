@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction   Id="BeenJammin.SharePoint.CustomRibbonActions.Email"   Location="CommandUI.Ribbon">
+        <CommandUIExtension>
+            <CommandUIDefinitions>
+                <CommandUIDefinition Location="Ribbon.EditingTools.CPInsert.Links.Controls._children">
+                    <Button Id="BeenJammin.SharePoint.CustomRibbonActions.LinkGroup.EmailLink" Command="BeenJammin.LinkGroup.Command.EmailLink" Sequence="50" Image16by16="/_layouts/images/BeenJammin.SharePoint.CustomRibbonActions/MENUOUTL.gif" Image32by32="/_layouts/images/MENUOUTL.gif" Description="Inserts a link to an email address, subject and heading." LabelText="Email" TemplateAlias="o1"/>
+                </CommandUIDefinition>
+            </CommandUIDefinitions>
+            <CommandUIHandlers>
+                <CommandUIHandler Command="BeenJammin.LinkGroup.Command.EmailLink" CommandAction="javascript:InsertEmailLink();" />
+            </CommandUIHandlers>
+        </CommandUIExtension>
+    </CustomAction>
+    <CustomAction Id="BeenJammin.SharePoint.RTEActions.Scripts" Location="ScriptLink" ScriptSrc="BeenJammin.SharePoint.CustomRibbonActions/RibbonActions.js"/>
+</Elements>

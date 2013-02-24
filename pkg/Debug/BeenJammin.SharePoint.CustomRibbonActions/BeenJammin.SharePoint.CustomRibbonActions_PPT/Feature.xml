@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Custom Ribbon Action: Paste Plain Text (New)" Description="Adds a button to paste plain text to the &quot;Format Text&quot; tab in the RTE editing ribbon." Id="ac293261-3e78-4bc7-8994-8fb2dd265665" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="PPT\Elements.xml" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction   Id="BeenJammin.SharePoint.CustomRibbonActions.Audio"   Location="CommandUI.Ribbon">
+        <CommandUIExtension>
+            <CommandUIDefinitions>
+                <CommandUIDefinition Location="Ribbon.EditingTools.CPInsert.Media.Controls._children">
+                    <Button Id="BeenJammin.SharePoint.CustomRibbonActions.AdditionalGroup.Audio" Command="BeenJammin.MediaGroup.Command.Audio" Sequence="30" Image16by16="/_layouts/images/BeenJammin.SharePoint.CustomRibbonActions/audio-ribbonicon.png" Image32by32="/_layouts/images/BeenJammin.SharePoint.CustomRibbonActions/audio-ribbonicon.png" Description="Include the Audio file." LabelText="Audio Embed" TemplateAlias="o1" />
+                </CommandUIDefinition>
+            </CommandUIDefinitions>
+            <CommandUIHandlers>
+                <CommandUIHandler Command="BeenJammin.MediaGroup.Command.Audio" CommandAction="javascript:InsertAudio()" />
+            </CommandUIHandlers>
+        </CommandUIExtension>
+    </CustomAction>
+    <CustomAction Id="BeenJammin.SharePoint.RTEActions.Scripts" Location="ScriptLink" ScriptSrc="BeenJammin.SharePoint.CustomRibbonActions/RibbonActions.js"/>
+</Elements>

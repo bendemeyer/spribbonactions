@@ -1,0 +1,6 @@
+C:\SharePoint Solutions\BeenJammin\BeenJammin.SharePoint.CustomRibbonActions\bin\Debug\BeenJammin.SharePoint.CustomRibbonActions.dll
+C:\SharePoint Solutions\BeenJammin\BeenJammin.SharePoint.CustomRibbonActions\bin\Debug\BeenJammin.SharePoint.CustomRibbonActions.pdb
+C:\SharePoint Solutions\BeenJammin\BeenJammin.SharePoint.CustomRibbonActions\bin\Debug\Microsoft.Sharepoint.Sandbox.dll
+C:\SharePoint Solutions\BeenJammin\BeenJammin.SharePoint.CustomRibbonActions\obj\Debug\ResolveAssemblyReference.cache
+C:\SharePoint Solutions\BeenJammin\BeenJammin.SharePoint.CustomRibbonActions\obj\Debug\BeenJammin.SharePoint.CustomRibbonActions.dll
+C:\SharePoint Solutions\BeenJammin\BeenJammin.SharePoint.CustomRibbonActions\obj\Debug\BeenJammin.SharePoint.CustomRibbonActions.pdb

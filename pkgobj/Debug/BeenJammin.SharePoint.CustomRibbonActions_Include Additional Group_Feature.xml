@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Custom Ribbon Action: Include Additional Group" Description="Adds the &quot;Additional&quot; control group to the &quot;Insert&quot; tab in the RTE editing ribbon." Hidden="TRUE" Id="4ada5c0b-4ec1-4ed4-ba6c-6a854f99bd87" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="IncludeAdditionalGroup\Elements.xml" />
+  </ElementManifests>
+</Feature>

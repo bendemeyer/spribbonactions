@@ -1,0 +1,41 @@
+﻿.youtubeVideoCaption {
+    background:#dddddd;
+    padding:10px;
+    font-size:90%;
+    margin:0;
+}
+.youtubeVideoLink {
+    margin:0;
+}
+.youtubeVideoLink object, .youtubeVideoLink embed {
+    height:100%;
+    width:100%;
+}
+.audioLink  {
+    padding-left: 20px;
+    background-image: url("/_layouts/images/BeenJammin.SharePoint.CustomRibbonActions/audioicon16.png");
+    background-repeat: no-repeat;
+}
+.embedCaption {
+    background:#dddddd;
+    padding:10px;
+    font-size:90%;
+    margin:0;
+}
+.embedCaptionContainer {
+    margin:0 auto;
+}
+.embedEditModeView {
+    text-align:center;
+    padding:10px;
+    border:1px solid #999999;
+}
+.embedEditModeView p {
+    text-align:center;
+}
+.embedOuterContainer {
+    text-align:center;
+}
+.embedEscapedContent {
+    display:none;
+}

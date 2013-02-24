@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="6bce85cf-4907-414e-a1bd-ab052aaef876" solutionId="6bce85cf-4907-414e-a1bd-ab052aaef876" resetWebServer="false" name="BeenJammin.SharePoint.CustomRibbonActions" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="e5da9f4d-0fba-4bbd-b50a-4c918e73e82b" />
+    <featureReference itemId="2add50dc-dad2-4fc4-a299-960a6ee3682c" />
+    <featureReference itemId="58f346b0-a85f-4ff6-858d-0d5709b89b29" />
+    <featureReference itemId="c5289c3e-38b1-4b94-aa77-8c046b929a86" />
+    <featureReference itemId="847e2cae-e7f9-4d23-878f-79437043941d" />
+    <featureReference itemId="0427cbb8-2a53-44b9-8057-b787b3c01afb" />
+    <featureReference itemId="e6cf9c55-88cd-400b-85d6-c1d7ec31d486" />
+    <featureReference itemId="de7c5748-d93d-4c20-b17b-f8ea95229c52" />
+    <featureReference itemId="08ecac06-f4f6-4d83-983c-1fb68fda5124" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="de9e6722-b1a3-4658-bfb2-7a54a31284aa" />
+    <projectItemReference itemId="b184b842-12f8-47b4-993b-71194bc697f4" />
+  </projectItems>
+</package>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction    Id="BeenJammin.SharePoint.CustomRibbonActions.Line"    Location="CommandUI.Ribbon">
+        <CommandUIExtension>
+            <CommandUIDefinitions>
+                <CommandUIDefinition Location="BeenJammin.SharePoint.CustomRibbonActions.AdditionalGroup.Controls._children">
+                    <Button Id="BeenJammin.SharePoint.CustomRibbonActions.AdditionalGroup.SpecialCharacter" Command="BeenJammin.AdditionalGroup.Command.SpecialCharacter" Sequence="3" Image16by16="/_layouts/images/BeenJammin.SharePoint.CustomRibbonActions/ltgbime.gif" Image32by32="/_layouts/images/BeenJammin.SharePoint.CustomRibbonActions/ltgbime.gif" Description="Insert a Special Character from a list" LabelText="Special Character" TemplateAlias="o1" />
+                </CommandUIDefinition>
+            </CommandUIDefinitions>
+            <CommandUIHandlers>
+                <CommandUIHandler Command="BeenJammin.AdditionalGroup.Command.SpecialCharacter" CommandAction="javascript:InsertSpecialCharacter();" />
+            </CommandUIHandlers>
+        </CommandUIExtension>
+    </CustomAction>
+    <CustomAction Id="BeenJammin.SharePoint.RTEActions.Scripts" Location="ScriptLink" ScriptSrc="BeenJammin.SharePoint.CustomRibbonActions/RibbonActions.js"/>
+</Elements>

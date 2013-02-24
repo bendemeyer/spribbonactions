@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction   Id="BeenJammin.SharePoint.CustomRibbonActions.Anchor"   Location="CommandUI.Ribbon">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.EditingTools.CPInsert.Links.Controls._children">
+          <Button Id="BeenJammin.SharePoint.CustomRibbonActions.LinkGroup.Anchor" Command="BeenJammin.LinkGroup.Command.Anchor" Sequence="30" Image16by16="/_layouts/images/BeenJammin.SharePoint.CustomRibbonActions/RTE2Anchor.gif" Image32by32="/_layouts/images/BeenJammin.SharePoint.CustomRibbonActions/RTE2ANCHOR.gif" Description="Inserts an anchor tag into the document." LabelText="Create Anchor" TemplateAlias="o1"/>
+        </CommandUIDefinition>
+        <CommandUIDefinition Location="Ribbon.EditingTools.CPInsert.Links.Controls._children">
+          <Button Id="BeenJammin.SharePoint.CustomRibbonActions.LinkGroup.AnchorLink" Command="BeenJammin.LinkGroup.Command.AnchorLink" Sequence="40" Image16by16="/_layouts/images/BeenJammin.SharePoint.CustomRibbonActions/RTE2Anchor.gif" Image32by32="/_layouts/images/BeenJammin.SharePoint.CustomRibbonActions/RTE2ANCHOR.gif" Description="Inserts a link to an existing anchor tag in the document." LabelText="Link to Anchor" TemplateAlias="o1"/>
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler Command="BeenJammin.LinkGroup.Command.Anchor" CommandAction="javascript:InsertAnchor();" />
+        <CommandUIHandler Command="BeenJammin.LinkGroup.Command.AnchorLink" CommandAction="javascript:InsertAnchorLink();" />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+  <CustomAction Id="BeenJammin.SharePoint.RTEActions.Scripts" Location="ScriptLink" ScriptSrc="BeenJammin.SharePoint.CustomRibbonActions/RibbonActions.js"/>
+</Elements>
