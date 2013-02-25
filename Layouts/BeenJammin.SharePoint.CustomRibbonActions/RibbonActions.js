@@ -588,7 +588,7 @@ function getIdFromUrl(url) {
 }
 
 function getIdFromFullUrl(url) {
-    return url.replace(/.*v=([^\&]*)/, "$1");
+    return url.replace(/.*v=([^\&]*)(.*)/, "$1");
 }
 
 function getIdFromShortUrl(url) {
