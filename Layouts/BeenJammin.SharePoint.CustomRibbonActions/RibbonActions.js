@@ -65,7 +65,7 @@ function InsertAnchorLink() {
         if (anchorTags[i].id && (anchorTags[i].id.length > 0))
             anchorList = anchorList + anchorTags[i].id + ",";
     }
-    anchorList = anchorList.substring(0, anchorList.length - 2);
+    anchorList = anchorList.substring(0, anchorList.length - 1);
     var options = SP.UI.$create_DialogOptions();
     var selectedText = getSelectedText();
 
